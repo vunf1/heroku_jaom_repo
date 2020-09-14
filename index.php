@@ -22,9 +22,9 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="./css/resume.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
     <!-- Allertify styles -->
@@ -145,21 +145,21 @@
 </div>
 
  <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./vendor/jquery/jquery.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="./vendor/jquery-easing/jquery.easing.min.js"></script>
 
 
     <!-- Custom scripts for this template https://alertifyjs.org-->
 <script src="https://cdn.rawgit.com/alertifyjs/alertify.js/v1.0.10/dist/js/alertify.js"></script>
 
-<script src="js/alertify1.0.10.js"></script>
+<script src="./js/alertify1.0.10.js"></script>
 
-    <script src="js/modernizr2.8.2.js"></script>
+    <script src="./js/modernizr2.8.2.js"></script>
 
-    <script src="js/resume.min.js"></script>
+    <script src="./js/resume.min.js"></script>
   </body>
 
 </html>

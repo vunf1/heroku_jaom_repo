@@ -1,0 +1,236 @@
+/*
+/*
+	Basic CSS syntax
+	Working/Loaded
+*/
+
+/*change proporties from element*/
+
+
+/**
+*
+* CSS Load for DESKTOP
+*/
+
+.alertify .ajs-dialog {
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+
+@media all and (display-mode: browser) {
+	body {
+		background-color: #fff;
+		font-family: "Lato", sans-serif;
+	}
+
+	.sidenav {
+		height: 100%;
+		width: 20%;
+		position: fixed;
+		z-index: 0;
+		top: 0;
+		left: 0;
+		background-color: #0066CB;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		padding-top: 20px;
+		padding: 10px;
+		box-shadow: 5px 10px 18px #1244AB;
+	}
+
+	.sidenav a {
+		padding: 6px 8px 6px 16px;
+		text-decoration: none;
+		font-size: 100%;
+		color: #818181;
+		display: block;
+	}
+
+	.sidenav a:hover {
+		color: #f1f1f1;
+	}
+
+	.main {
+		margin-left: 20%;
+		text-align: center;
+	}
+}
+
+
+/**
+* * * * * *
+* CSS END for DESKTOP
+*/
+
+
+/**
+*
+* CSS Load for mobile
+*/
+@media screen and (orientation:portrait) {
+	/*body{color:green;}*/
+}
+
+@media screen and (orientation:landscape) {
+	/*body{color:red;}*/
+}
+
+#body_element_index {
+	/*display: none;*/
+
+	font-family: "Lato", sans-serif;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*change properties from classes*/
+.nav-link,
+.navbar-item {
+	text-align: center;
+	word-wrap: break-word;
+	font-size: 100%;
+}
+
+/*change properties from id*/
+#nav-bar-full-width {
+
+	z-index: 1;
+	top: 0;
+	position: fixed;
+	word-wrap: break-word;
+	background-color: #0066CB;
+	width: 100%;
+	height: 25%;
+	padding-top: 20px;
+	padding: 10px;
+	box-shadow: 5px 10px 18px #1244AB;
+
+
+}
+
+/**
+* * * * * *
+* CSS END for mobile
+*/
+
+
+
+
+/* GLOBAL */
+
+#container {
+	/* Index */
+	margin-top: 44%;
+}
+
+/* multi changes from id*/
+#search-op a,
+#nav-op a,
+#scan-op a {
+	/* Index */
+	font-size: 100%;
+	color: rgb(255, 255, 255);
+	word-wrap: break-word;
+}
+
+.clearfix:hover {
+	/* Build List from JS */
+	border: 1px solid #7FFAFF;
+
+}
+
+.list-group {
+	border-left: 0;
+	border-right: 0;
+}
+
+/**
+*
+*  CSS for Dinamic list created content in load_content_index
+*
+* */
+.left-side {
+	/*list building divide into 2sides -left30% -right70%*/
+	margin: 0;
+	float: left;
+	width: 30%;
+}
+
+.right-side {
+	margin: 0;
+	float: left;
+	width: 70%;
+	font-size: 100%;
+
+}
+
+.right-side2 {
+	margin: 0;
+	float: left;
+	width: 100%;
+	font-size: 100%;
+
+}
+
+.split-items,
+.list-group-item,
+.left-side {
+	/*no borders on left-right side*/
+
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.split-items,
+.list-group-item,
+.right-side {
+	/*no borders on right + text justify - need to put first child of .right-side without text justify ;
+*/
+	border: 0;
+	text-align: left;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 4px;
+}
+
+.copyleft {
+	display: inline-block;
+	transform: rotate(180deg);
+}
+
+.ds-btn li {
+	list-style: none;
+	float: left;
+	padding: 10px;
+}
+
+.ds-btn li a span {
+	padding-left: 15px;
+	padding-right: 5px;
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+}
+
+.ds-btn li a span small {
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+}
+#experienceTitle:hover, #educationTitle:hover, #skillsTitle:hover, #interestsTitle:hover, #awardsTitle:hover, #projectTitle:hover{
+	background-color: whitesmoke;
+}
+#experienceTitle.taphover:hover, #experienceTitle.taphover.hover,
+#educationTitle.taphover:hover, #educationTitle.taphover.hover,
+#skillsTitle.taphover:hover, #skillsTitle.taphover.hover,
+#interestsTitle.taphover:hover, #interestsTitle.taphover.hover,
+#awardsTitle.taphover:hover, #awardsTitle.taphover.hover,
+#projectTitle.taphover:hover, #projectTitle.taphover.hover{
+    background-color: whitesmoke;
+}
+/** ---END--- */

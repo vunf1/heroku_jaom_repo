@@ -153,21 +153,21 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="./vendor/jquery/jquery.min.js"></script>
-  <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/../vendor/jquery/jquery.min.js"></script>
+  <script src="/../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="./vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="/../vendor/jquery-easing/jquery.easing.min.js"></script>
 
 
   <!-- Custom scripts for this template https://alertifyjs.org-->
   <script src="https://cdn.rawgit.com/alertifyjs/alertify.js/v1.0.10/dist/js/alertify.js"></script>
 
-  <script src="./js/alertify1.0.10.js"></script>
+  <script src="/../js/alertify1.0.10.js"></script>
 
-  <script src="./js/modernizr2.8.2.js"></script>
+  <script src="/../js/modernizr2.8.2.js"></script>
 
-  <script src="./js/resume.min.js"></script>
+  <script src="/../js/resume.min.js"></script>
 </body>
 
 </html>

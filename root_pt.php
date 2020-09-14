@@ -13,11 +13,11 @@ $address_Server = "vunf1.coventry.domains"
   <title>Página Raiz</title>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="helpers/jquery/jquery.min.js"></script>
+  <script src="helpers/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="helpers/jquery-easing/jquery.easing.min.js"></script>
 
 
   <!-- Custom scripts for this template https://alertifyjs.org-->
@@ -32,7 +32,7 @@ $address_Server = "vunf1.coventry.domains"
     // window.history.pushState("", "", '/root');
   </script>
 
-  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="helpers/jquery/jquery.min.js"></script>
   <!-- Allertify styles -->
   <!-- JavaScript -->
   <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/alertify.min.js"></script>
